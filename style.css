@@ -1,0 +1,53 @@
+
+h1 {
+    font-family: 'Gemunu Libre', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 30px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+button {
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    background-color: #4EFF4E;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7AE57A;
+    transform: translateY(-5px);
+    transition: all 0.5s;
+}
+
+.result {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-size: 25px;
+    
+}
+
+body {
+    background-color: #A6F191;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    font-family:'Gemunu Libre', sans-serif;
+    font-size: 20px;
+    background-color: #D5F1C8;
+    margin: 1px solid #D5F1C8 ;
+}
